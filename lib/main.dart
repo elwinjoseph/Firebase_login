@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:newfirebase/login%20&%20register/login/loginpage.dart';
+import 'package:newfirebase/login%20&%20register/register/register_page.dart';
 import 'package:newfirebase/view.dart';
 
 void main() async {
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Todohome(),
+      home: Loginpage(),
     );
   }
 }
